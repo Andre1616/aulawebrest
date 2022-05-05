@@ -1,0 +1,31 @@
+###
+GET http://localhost:8080/clientes
+
+###
+GET http://localhost:8080/clientes/2
+
+
+###
+DELETE http://localhost:8080/clientes/9
+
+
+###
+POST http://localhost:8080/clientes
+Content-Type: application/json
+
+{
+    "nome": "Sousa"
+}
+
+###
+PUT http://localhost:8080/clientes/9
+Content-Type: application/json
+
+{
+    "id": 1,
+    "nome": "Xavier"
+}
+
+
+###
+
